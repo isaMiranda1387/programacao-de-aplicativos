@@ -1,0 +1,7 @@
+Nascimento = int(input("ano do seu nascimento:"))
+Ano_atual = int(input("ano atual:"))
+
+subtracao  =  Ano_atual - Nascimento
+
+print("a sutração dos valores é", subtracao )
+
