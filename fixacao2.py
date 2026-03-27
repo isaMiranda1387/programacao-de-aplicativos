@@ -1,4 +1,5 @@
 senha = ""
-while senha == "1234":
-    senha = input("Senha: ")
-print("Bem-vindo!")    
+while senha != "4546":
+    senha = int(input("Digite a senha: "))
+
+print("Senha correta. Bem-vindo!")    
