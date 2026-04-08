@@ -1,3 +1,5 @@
 senha = ""
 while senha != "python123":
-   print("A senha está correta.")
+   senha = input("A senha é:")
+
+print("Senha correta. Bem-vindo!")      
