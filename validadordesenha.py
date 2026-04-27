@@ -9,4 +9,5 @@ def senha_valida (senha_aprovada):
             return False
 
 senha_usuario = int(input("Digite sua senha: "))
-msg = senha_valida(senha_usuario)       
+msg = senha_valida(senha_usuario)  
+print(msg)     
