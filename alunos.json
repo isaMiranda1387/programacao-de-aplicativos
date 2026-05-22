@@ -12,5 +12,12 @@
         "telefone": 3498534,
         "turma": 23432,
         "idade": 2
+    },
+    {
+        "nome": "isa",
+        "telefone": "123545667",
+        "turma": "2",
+        "idade": 3,
+        "cpf": "234445345"
     }
 ]
