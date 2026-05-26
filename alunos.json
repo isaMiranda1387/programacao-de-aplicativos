@@ -1,23 +1,8 @@
-[
-    {
-        "cpf": 435465677,
-        "nome": "isa",
-        "telefone": 887443,
-        "turma": 1,
-        "idade": 1
-    },
-    {
-        "cpf": 89753738475,
-        "nome": "isa",
-        "telefone": 3498534,
-        "turma": 23432,
-        "idade": 2
-    },
-    {
-        "nome": "isa",
-        "telefone": "123545667",
-        "turma": "2",
-        "idade": 3,
-        "cpf": "234445345"
-    }
-]
+{
+    "id": 4,
+    "nome": "Isadora",
+    "telefone": "4499103123",
+    "turma": "4",
+    "idade": 15,
+    "cpf": "667895432456"
+}
