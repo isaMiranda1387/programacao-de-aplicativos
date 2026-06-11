@@ -31,7 +31,23 @@ comando_inserir = (f'''
 
 cursor.execute(comando_inserir)
 conexao.commit()
-conexao.close()
+
 
 print("Cadastro realizado com sucesso!")
-               
+
+cursor.execute("SELECT * FROM alunos")
+
+for aluno in cursor.fetchall():
+    print(aluno)
+             
+
+for aluno in cursor:
+    print(f"ID: {aluno[0]}")
+    print(f"Nome: {aluno[1]}")
+    print(f"Telefone: {aluno[2]}")
+    print(f"Turma: {aluno[3]}")
+    print(f"Idade: {aluno[4]}")
+    print(f"CPF: {aluno[5]}")
+    print("-" * 30)    
+
+conexao.close()            
